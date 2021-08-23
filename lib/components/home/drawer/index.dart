@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:telegram_clone/components/home/DrawerListTile.dart';
-import 'package:telegram_clone/components/home/DrawerUserListTile.dart';
+import 'package:telegram_clone/components/home/drawer/DrawerListTile.dart';
+import 'package:telegram_clone/components/home/drawer/DrawerUserListTile.dart';
 
 class DrawerScreen extends StatefulWidget {
   DrawerScreen({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:telegram_clone/components/home/UserMessage.dart';
-import 'package:telegram_clone/components/home/index.dart';
+import 'package:telegram_clone/components/home/drawer/index.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key, required this.title}) : super(key: key);
@@ -38,25 +38,26 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             UserMessage(
-              name: "ixHayaBusa",
+              name: "Flutter Developers",
               picture: NetworkImage(
-                "https://cdn4.telesco.pe/file/t8nZz8P0D2Nlll6eOhXxjk-08QjTfo8pAMXY1lIoYGJOMlDQvgGMTawbMzwZdm0i27bmnBGT_V4XdSWibnuqIr51OuZ8E6URHwZYkebDvjtGQiNqaboh2PhDRs-7ye3reAup0IG4Qai3pAblX-ORXdYH1o40m5VWouIrLsO2f6fh5Of5SpyBz5Vozfa8IjODVOkQNW7wzV4j10zU4qnUxGaJYJDnPi2zMaPIXQn3HYreGTqw5ipaNPa3mTjQD1SA3BT2_erxzUu2M7wDDoutzXcMwuL9Gn13216EDPwkYcQkwMZJPMLZ0nnk-UyMp_TA1pTYdNk0TXzMAarlE-ZLYQ.jpg",
+                "https://cdn4.telesco.pe/file/gmCq1iLVdznY9p1Xgve2BuiTY_fVx_QobWK9IGUACKUDflAytDOtzhhshN8h6I0ERAvscRpaI48LkqEwnRUlJY6qrSllFM5UhcLgwzmwEo0OH6mNKrMlN2Sxm04GoIjQ06uV3R7yr3hxCdXanFPTMLK2XYXLuhP6gpBFfc6xmKNBlap3F_SRuy-m0PDWAAgCVdTFDi3ydxpe4PZK-ytiEX-jDAhtbnhxmb1_IzEr0_KOKj2CNx3C2QYwmrzeLaG0c9_YbGzup1fSj99xEQLLJ-RfhcANds_A3O6M31z7a6eatLa46KXNGPextgOySRy0jjlj_Utvb01OeuI1dbC2aA.jpg",
               ),
-              lastTime: "21:46",
+              type: "group",
+              sending: "Your",
+              lastTime: "02:45",
               seeing: 2,
-              lastMessage: "tamamdır abi :)",
+              lastMessage: "https://github.com/ofarukbicer/telegram-clone",
             ),
             Divider(height: 0),
             UserMessage(
-              name: "Kekik | Kahve",
+              name: "Flutter Türkiye 🇹🇷",
               picture: NetworkImage(
-                "https://cdn4.telesco.pe/file/te-NQjoX0Yuc8BZkeyIAVYwcscsx3nFXKOvEgIZPl3CJYHUgXs405IkmlK-coWwmM9PjFGCsQb6BMfF9BF2cQZ1pCq2VWJSI8WEPKvgIMyf1Ve3VFZxiehv9Wq0yzjAYfiZCD8tnY2XQrA0sFpdw6cotFNv4A1ZR3VenRbNiccUW7n8ouFHCeTehsQMyDx6J54onmxzVuKiymaX-OqG2d9-bgxtWEIY1PYOJiEi1DIGdDFlIQJh51rWK34ZIfp4C5bsDYQmpXMCchr2Aa4XIqirB4a_kg68EbFc71AGVno1bfF2E9XR0fixzCWc_07J6n5ELsVOz-bnG56ibwdeI9g.jpg",
+                "https://cdn4.telesco.pe/file/b7AZ0Zpaa78uW77TPdktnlOQGpBnTW2ILqi94jywJ8aWe9xRTdCMvpb6BygZni156_S-HuGhDoX6Z-hlAJHaKMHQSSTtK3cKCHwQ2U6az1qcFCxXR5kZprMIbgRSkknNmNAFwQFB_LTCk1VwyJVx6P6zY2cHFaSlIz5wb-LkMsoNigNFuefcnOhS3ore8vBkv-hz9VPtM-4daar9ShN3T0RV9P2IQsOoJmLmjd-Zz-vE0-jy9zt09qYay_1VEIw3f0IiPTD-o6RUTOts3xktU6KJlgWd4K8UhQwyFPqsNQociPkJ0FXRPR_xxiWg6E2iWtRlYyNdm24TCNMraLzg0g.jpg",
               ),
-              lastTime: "21:49",
-              mute: true,
+              lastTime: "02:16",
               type: "group",
-              sending: "Sen",
-              lastMessage: "bot emeği ile topluyo",
+              sending: "Mesud Karakayalı",
+              lastMessage: "gece gece sinirim bozuldu.",
             ),
             Divider(height: 0),
           ],
