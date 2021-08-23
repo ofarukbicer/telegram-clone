@@ -36,7 +36,7 @@ class DrawerUserListTile extends StatelessWidget {
               ),
               child: SizedBox.fromSize(
                 size: Size(35, 35),
-                child: this.icon != null ? Icon(this.icon!) : CircleAvatar(
+                child: CircleAvatar(
                   child: Center(
                     child: Text(
                       this.picture != "" ? "" : this.name.substring(0, 1),
