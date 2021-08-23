@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
               sending: "Your",
               lastTime: "02:45",
               seeing: 2,
-              lastMessage: "https://github.com/ofarukbicer/telegram-clone",
+              lastMessage: "https://github.com",
             ),
             Divider(height: 0),
             UserMessage(
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
               ),
               lastTime: "02:16",
               type: "group",
-              sending: "Mesud Karakayalı",
+              sending: "Mesud",
               lastMessage: "gece gece sinirim bozuldu.",
             ),
             Divider(height: 0),

@@ -56,27 +56,21 @@ class DrawerScreenState extends State<DrawerScreen> {
             ),
           if (showOtherUsers)
             DrawerUserListTile(
-              name: "ixHayaBusa",
-              picture:
-                  "https://cdn4.telesco.pe/file/t8nZz8P0D2Nlll6eOhXxjk-08QjTfo8pAMXY1lIoYGJOMlDQvgGMTawbMzwZdm0i27bmnBGT_V4XdSWibnuqIr51OuZ8E6URHwZYkebDvjtGQiNqaboh2PhDRs-7ye3reAup0IG4Qai3pAblX-ORXdYH1o40m5VWouIrLsO2f6fh5Of5SpyBz5Vozfa8IjODVOkQNW7wzV4j10zU4qnUxGaJYJDnPi2zMaPIXQn3HYreGTqw5ipaNPa3mTjQD1SA3BT2_erxzUu2M7wDDoutzXcMwuL9Gn13216EDPwkYcQkwMZJPMLZ0nnk-UyMp_TA1pTYdNk0TXzMAarlE-ZLYQ.jpg",
-              selected: selectedUser == 1 ? true : false,
-              onTap: () {
-                setState(() {
-                  selectedUser = 1;
-                });
-              },
-            ),
-          if (showOtherUsers)
-            DrawerUserListTile(
               name: "keyifleroslun",
               picture:
-                  "https://cdn4.telesco.pe/file/HfLZ5RAyu_dtTMy42VehPRIWFTkeh7dJdp0N_FdL7WXpxL0125T8Lyby5GUygzS548Z6HZuDqtMUTXK6U64Nxcw7yEVj-b-CGyF0zP1NhjXuwjCRk2zSA4D0s0ZBsame8hfW08Jw8O78Z2Rrzep1Wwvtqq58BX67gDNWywfbHFFEMlI846nA8Ypf1jh54Xv45TFtCOgSNdcOo2RZR_5nnX1KlmsGGNFUFboKn20kAbOnhx1wdr0TcV8rc3L-IgwA7FPLCEPpBgG-R-sRK9dcwOwvakA3sN9Gw4XMctGKbfCBkHx2gPlY8_LEfwskdoCZT5qBe6vYiKGXN5rajgj_TA.jpg",
+                  "https://avatars.githubusercontent.com/u/57468649",
               selected: selectedUser == 2 ? true : false,
               onTap: () {
                 setState(() {
                   selectedUser = 2;
                 });
               },
+            ),
+          if (showOtherUsers)
+            DrawerUserListTile(
+              name: "Yeni Kullanıcı ekle",
+              icon: Icons.person_add_outlined,
+              onTap: () {},
             ),
           if (showOtherUsers) Divider(),
           DrawerListTile(
