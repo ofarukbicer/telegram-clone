@@ -1,7 +1,7 @@
 # telegram_clone
 
 Hello there,
-I tried to write clone of telegram in this application. I will prepare the whole design of telegram and present it to the public, you can have it develop it by cloning it. if you want to create your own telegram i would like you to take a look at tdlib i hope it will be useful application for you
+I tried to write clone of telegram in this application. I will prepare the whole design of telegram and present it to the public, you can have it develop it by cloning it. if you want to create your own telegram i would like you to take a look at [tdlib](https://pub.dev/packages/tdlib) i hope it will be useful application for you
 
 ## Getting Started
 
